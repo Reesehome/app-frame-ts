@@ -1,0 +1,30 @@
+@import 'common/variables';
+
+#app {
+    overflow: hidden;
+    background-color: @background-color;
+    color: @text-color;
+    & .global-loading {
+        position: absolute;
+        height: 100%;
+        z-index: 999;
+        top: 0;
+        width: 100%;
+        background: @background-color;
+        & .van-loading {
+            width: 100%;
+            transform: translate(0, 5rem);
+        }
+    }
+
+    .van-cell {
+        /*padding: 0.2rem 0.4rem;*/
+        &:after {
+            border-bottom: 2px solid #ebedf0;
+        }
+    }
+
+    .van-hairline--top::after {
+        border-top-width: 2px;
+    }
+}
