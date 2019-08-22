@@ -1,1 +1,1 @@
-window.uimenv = {};
+window.uimenv = {"VUE_APP_BASE_URL":"http://172.16.30.78:8080"};

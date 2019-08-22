@@ -17,7 +17,6 @@ import { NavBar, Icon } from 'vant';
 })
 export default class Layout extends Vue {
     // data
-    showTitle: boolean = false;
     // methods
 
     created() {
@@ -28,7 +27,6 @@ export default class Layout extends Vue {
             if (matchval && matchval[0] === 'micromessenger') {
                 const dom: any = document.querySelector('.layout_content');
                 dom.style.height = 'calc(100% + 15px)';
-                dom.style.overflow = 'scroll';
             }
         });
     }
