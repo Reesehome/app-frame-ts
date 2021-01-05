@@ -9,7 +9,7 @@
 		"build-tsc": "tsc"
 	},
 	"dependencies": {
-		"axios": "^0.18.0",
+		"axios": "^0.21.1",
 		"fastclick": "^1.0.6",
 		"postcss-pxtorem": "^4.0.1",
 		"vant": "^1.6.19",
